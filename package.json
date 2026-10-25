@@ -1,0 +1,17 @@
+{
+  "name": "layerlibrary",
+  "version": "0.3.0",
+  "private": true,
+  "description": "A local, single-HTML 3D model library",
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "test": "node --test tests/*.test.cjs",
+    "build:engine": "esbuild viewer-3d.js --bundle --minify --format=iife --global-name=MeshViewer --outfile=vendor/mesh-viewer.js --legal-comments=eof"
+  },
+  "devDependencies": {
+    "three": "0.186.0",
+    "esbuild": "0.25.12",
+    "jsdom": "26.1.0"
+  },
+  "license": "MIT"
+}

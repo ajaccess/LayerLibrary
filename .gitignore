@@ -1,0 +1,18 @@
+node_modules/
+dist/
+__pycache__/
+.DS_Store
+*.3mf
+*.stl
+*.obj
+*.ply
+*.amf
+*.zip
+/3mf Files/
+/Samples/
+/Open 3MF Library.*
+/START HERE.txt
+/viewer.py
+
+# Only this original, redistributable model belongs in the public source.
+!/examples/Layer Tower.stl
